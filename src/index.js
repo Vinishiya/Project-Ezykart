@@ -10,7 +10,7 @@ root.render(
   domain="dev-goe17cd6r60hdlzj.us.auth0.com"
   clientId="zL1MabKV8jluIglRCiXnfN9dkWjnhT4Y"
   authorizationParams={{
-    redirect_uri: window.location.origin
+    redirect_uri:  "https://vinishiya.github.io"
   }}
 >
     <App />
