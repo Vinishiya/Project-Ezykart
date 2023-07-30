@@ -1,0 +1,143 @@
+.footer{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(250, 220, 255);
+}
+.footer .container .about .logo{
+    width: 140%;
+}
+.footer .container .about .logo p{
+    margin-bottom: 5%;
+}
+.footer .container .about .logo  img{
+    width: 50%;
+    height: 45%;
+}
+.footer .container .about{
+    display:flex;
+    justify-content: space-evenly;
+    padding: 2% 3%;
+
+}
+.footer .container{
+    padding: 2% 3%;
+
+}
+.footer .container .about .account{
+    width: 80%;
+    align-items: center;
+    margin-right: 20%;
+    margin-left: 15%;
+
+}
+.footer .container .about .account h3{
+    margin-bottom: 10%;
+
+}
+.footer .container .about .account li{
+    list-style: none;
+}
+.footer .container .about .account li:hover{
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.footer .container .about .media{
+    width: 80%;
+}
+.footer .container .about .media h3{
+    margin-bottom: 10%;
+}
+.footer .container .about .media li {
+    list-style: none;
+    display: inline;
+ flex-wrap: wrap;
+ padding: 1% 3%;
+ font-size: 25px;
+ 
+ color: rgb(166, 4, 166);
+ width: 5%;
+ height: 5%;
+   
+
+}
+.footer .container .about .media li :hover{
+    cursor: pointer;
+   ;
+   
+    
+}
+.footer .container .copy {
+    margin-top: 3%;
+   margin-left: 35%;
+    justify-content: center;
+}
+
+.footer .container .about .contact{
+    width: 80%;
+    
+}
+.footer .container .about .contact h3{
+    margin-bottom: 10%;
+}
+.footer .container .about .contact li{
+    list-style: none;
+    padding: 3%;
+    
+}
+
+@media (max-width: 450px) {
+  
+    .footer .container .about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .container .about .logo p {
+        margin-bottom: 5px;
+        padding: 2%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .footer .container .about .logo img {
+        width: 50%;
+        height: auto;
+        margin-left: 10%;
+    }
+
+    .footer .container .about .account, .contact {
+        margin: 0;
+        margin-left: -15%;
+    }
+
+    .footer .container .about .account h3 {
+        margin-bottom: 5px;
+    }
+
+    .footer .container .about .media  {
+        margin-left: 10%;
+    }
+
+    .footer .container .about .media li {
+        font-size: 18px;
+       
+    }
+
+    .footer .container .copy {
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+
+    .footer .container .about .contact h3 {
+        margin-bottom: 5px;
+    }
+
+    .footer .container .about .contact li {
+        padding: 1%;
+    }
+}
+
+

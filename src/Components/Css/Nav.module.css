@@ -1,0 +1,193 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+ .main_header{
+    width:100%;
+    padding:0;
+    border-bottom: 1px solid black;
+   }
+
+ .main_header .container{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+ }
+ .main_header .container .logo img{
+   width: 100%;
+   max-height: 100px;
+}
+
+ .main_header .container .search_box{
+    padding: 3% 5%;
+    display: flex;
+ }
+ .main_header .container .search_box input{
+    width: 300px;
+    height: 40px;
+    border: 3px solid;
+    border-radius: 3%;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ .main_header .container .search_box .link{
+   text-decoration: none;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+   max-height: 40px;
+    border: 3px solid;
+    border-radius: 3%;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ 
+ .icon{
+    display: flex;
+    justify-content: space-between;
+    padding:3% ;
+    
+    
+ }
+ .icon .account{
+    display: flex;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ .icon .account p{
+    padding: 0%;
+    font-size: 15px;
+ }
+
+ .icon .second_icon{
+    width: 100%;
+    display: flex;
+    
+    
+
+   
+   
+ 
+
+ }
+ .icon .second_icon .link{
+    padding-right: 5%;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    margin-right: 5%;
+    width: 45px;
+    
+ 
+ }
+
+ .header{
+    width: 100%;
+    padding:20px 30px;
+    border-bottom: 0.5px solid rgb(219, 213, 213);
+    box-shadow: rgba(0,0,0,0.5) 0px,5px 15px;
+   
+ }
+ .header .contact{
+    display: flex;
+    justify-content: space-between;
+  
+ }
+.header .contact .nav ul{
+    display: flex;
+    list-style: none;
+   
+    
+   
+}
+.header .contact .nav ul li{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.header .contact .nav ul li .item{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header .contact .auth{
+    margin-right: 0%;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header .contact .auth button{
+    margin-right: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+}
+/* Responsive CSS using media queries */
+@media (max-width: 768px) {
+   /* Adjust .search_box input width and .search_box .link font-size for smaller screens */
+   .main_header .container .search_box input {
+       width: 100%;
+       font-size: 12px;
+   }
+   .main_header .container .search_box .link {
+       font-size: 12px;
+   }
+   
+   /* Adjust .icon .account font-size for smaller screens */
+   .icon .account {
+       font-size: 20px;
+   }
+   
+   /* Adjust .icon .second_icon .link padding-right for smaller screens */
+   .icon .second_icon .link {
+       padding-right: 10px;
+   }
+   
+   /* Adjust .header .contact .auth font-size for smaller screens */
+   .header .contact .auth {
+       font-size: 20px;
+   }
+}
+
+@media (max-width: 450px) {
+   .main_header .container {
+       flex-direction: column;
+   }
+   .main_header .container .logo img{
+      width: 50%;
+      height: auto;
+   }
+   .main_header .container .search_box input {
+       width: 100%;
+       margin-top: 10px;
+   }
+   .main_header .container .search_box .link {
+       margin-top: 10px;
+   }
+   .icon .account {
+       margin-right: 0;
+       
+   }
+   .icon .second_icon {
+      margin-left: 60%;
+       flex-direction: row;
+   }
+   .icon .second_icon .link {
+       margin-right: 0;
+   }
+   .header .contact .nav ul {
+       margin-right: 0;
+   }
+   .header .contact .nav ul li {
+       margin-left: 10px;
+   }
+   .header .contact .auth button {
+       margin-right: 0;
+   }
+}

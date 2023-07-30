@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.img_box img{
+    width: 10%;
+    
+}
