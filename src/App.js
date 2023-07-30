@@ -136,7 +136,7 @@ const dislike=(y)=>{
    <Router>
     <Nav setSearch={setSearch} cart={cart} wishitem={wishitem}/>
     <Routes>
-      <Route path="/" exact element={<Home detail={detail}  view={view} close={close} setClose={setClose} add={add} homeprod={homeprod} setHomeprod={setHomeprod} like={like}/> }/>
+      <Route path="/Project-Ezykart/" exact element={<Home detail={detail}  view={view} close={close} setClose={setClose} add={add} homeprod={homeprod} setHomeprod={setHomeprod} like={like}/> }/>
       <Route path="/Product" exact element={<Product/>}/>
       <Route path="/Wishlist" exact element={<Wishlist wishitem={wishitem} dislike={dislike} view={view} add={add} detail={detail}  close={close} setClose={setClose}/>}/>
       <Route path="/Account" exact element={<Account/>}/>

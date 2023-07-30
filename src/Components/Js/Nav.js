@@ -65,7 +65,7 @@ function Nav({setSearch ,cart,wishitem}) {
           <div className={Styles.nav}>
           <ul>
             <li>
-              <Link to="/" className={Styles.item}>Home</Link>
+              <Link to="/Project-Ezykart/" className={Styles.item}>Home</Link>
             </li>
             <li>
               <Link to="/Sortitem  " className={Styles.item}>Products</Link>
