@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Project-Ezykart/static/css/main.f70a095d.css",
+    "main.js": "/Project-Ezykart/static/js/main.d49bbf1f.js",
+    "static/media/fasaree1.jpg": "/Project-Ezykart/static/media/fasaree1.0bec6dba12a52e8d59ea.jpg",
+    "static/media/kurta2.jpg": "/Project-Ezykart/static/media/kurta2.4280b3287ee86964f059.jpg",
+    "static/media/jeans1.jpg": "/Project-Ezykart/static/media/jeans1.1c7524feacb3174af472.jpg",
+    "static/media/logo.jpg": "/Project-Ezykart/static/media/logo.f262f660c8ccf4e0dfb9.jpg",
+    "static/media/jeans5.jpg": "/Project-Ezykart/static/media/jeans5.65a6731a0a545dc16d1e.jpg",
+    "static/media/pasaree1.jpg": "/Project-Ezykart/static/media/pasaree1.17aae7ab0c2e43c4d222.jpg",
+    "static/media/fasaree3.jpg": "/Project-Ezykart/static/media/fasaree3.6049e4aa38198055b906.jpg",
+    "static/media/nightd1.jpg": "/Project-Ezykart/static/media/nightd1.cdfbd4b3af8e7ab808a2.jpg",
+    "static/media/kurta6.jpg": "/Project-Ezykart/static/media/kurta6.623bd8f86697bbd0be90.jpg",
+    "static/media/nightd2.jpg": "/Project-Ezykart/static/media/nightd2.21473caa7438c249e615.jpg",
+    "static/media/nighty.jpg": "/Project-Ezykart/static/media/nighty.2bd49cb555df29ec1c7e.jpg",
+    "static/media/kurta1.jpg": "/Project-Ezykart/static/media/kurta1.3633a27833304916a0f9.jpg",
+    "static/media/fasaree2.jpg": "/Project-Ezykart/static/media/fasaree2.542a0cb908d0bc75851e.jpg",
+    "static/media/nighty3.jpg": "/Project-Ezykart/static/media/nighty3.4a04d7e45ec63ed6f500.jpg",
+    "static/media/posaree1.jpg": "/Project-Ezykart/static/media/posaree1.d2b5e614c01fa97d6be6.jpg",
+    "static/media/nighty2.jpg": "/Project-Ezykart/static/media/nighty2.96c3c7d77f0d737e1790.jpg",
+    "static/media/kurta4.jpg": "/Project-Ezykart/static/media/kurta4.1e2285756005b6d55c27.jpg",
+    "static/media/posaree2.jpg": "/Project-Ezykart/static/media/posaree2.fc75b7945bd89e461da1.jpg",
+    "static/media/pant2.jpg": "/Project-Ezykart/static/media/pant2.1b3ff5d106770482ab7d.jpg",
+    "static/media/pant3.jpg": "/Project-Ezykart/static/media/pant3.5446e5ba3cccbc2a3a9c.jpg",
+    "static/media/jeans6.jpg": "/Project-Ezykart/static/media/jeans6.b507a21cfc46a2d5f14c.jpg",
+    "static/media/kurta7.jpg": "/Project-Ezykart/static/media/kurta7.3797238ec10eca06928e.jpg",
+    "static/media/kurta8.jpg": "/Project-Ezykart/static/media/kurta8.fde2e4baf70281fe9fc7.jpg",
+    "static/media/top1.jpg": "/Project-Ezykart/static/media/top1.4b3684cd13e8d8f0b9ff.jpg",
+    "static/media/kurta5.jpg": "/Project-Ezykart/static/media/kurta5.4651cc78c838c5588fa5.jpg",
+    "static/media/top2.jpg": "/Project-Ezykart/static/media/top2.fdaff6c90f8dbd65853d.jpg",
+    "static/media/pant1.jpg": "/Project-Ezykart/static/media/pant1.5e1aabc958dd9a22675f.jpg",
+    "static/media/top3.jpg": "/Project-Ezykart/static/media/top3.90f0b53e5c91b7dd037a.jpg",
+    "index.html": "/Project-Ezykart/index.html",
+    "main.f70a095d.css.map": "/Project-Ezykart/static/css/main.f70a095d.css.map",
+    "main.d49bbf1f.js.map": "/Project-Ezykart/static/js/main.d49bbf1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f70a095d.css",
+    "static/js/main.d49bbf1f.js"
+  ]
+}
